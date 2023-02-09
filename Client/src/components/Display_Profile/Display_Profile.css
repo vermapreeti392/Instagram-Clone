@@ -1,0 +1,16 @@
+.followbtn{
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 7px 18px;
+    font-size: 1rem;
+    border-radius: 10px;   
+    margin-left: 20px;
+    border: none;
+    color: #fff;
+    background: green;
+    transition: all 0.25s ease;
+}
+.followbtn:hover{
+    transform: translateY(-7px);
+    box-shadow: 0 10px 20px -10px rgba(27, 161, 65, 0.6) ;
+}

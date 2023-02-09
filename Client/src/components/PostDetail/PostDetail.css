@@ -1,0 +1,91 @@
+/* comment section */
+
+.show-comment{
+    width: 100vw;
+    min-height:100vh ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(16, 13, 13, 0.4);
+    
+}
+
+.comment-container{
+    display: flex;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 500px;
+}
+
+.post-pic{
+    background-color: black;
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.post-pic img{
+    object-fit: fill;
+    height: 380px;
+    width: 100%;
+}
+
+.comment-details{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.comment-section{
+    flex-grow: 4;
+    text-align: left;
+    margin-left: 5px;
+    border-bottom: 1px solid rgba(114, 114, 114, 0.374);
+}
+.card-Header{
+
+    border-bottom: 2px solid rgb(114 114 114 / 79%);
+}
+
+.close-comment{
+    position: fixed;
+    top: 1%;
+    right: 5%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+.delete-icon{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    
+}
+@media screen and (max-width : 800px) {
+    .comment-container {
+        display: flex;
+        width: 80%;
+        background-color: white;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        height: 382px;
+    }
+    .post-pic img {
+        object-fit: fill;
+        height: 272px;
+        width: 100%;
+    }
+    .comment-details {
+        width: 56%;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,43 @@
+.create-post{
+    
+    max-width: 370px;
+    margin: 10px auto;
+    border: 1px solid rgb(173,173,173);
+    border-radius: 5px;
+}
+.main{
+    border-top: 1px solid rgb(173,173,173);
+    text-align: center;
+}
+.main > input{
+    margin-bottom: 5px;
+    margin-left: 78px;
+}
+.post-header{
+    display: flex;
+}
+#post-btn{
+    border: none;
+    background: none;    
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(47, 126, 158);
+
+}
+.details{
+    border-top: 1px solid rgb(173,173,173);
+}
+textarea{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+#output{
+    margin: 10px 0px;
+    
+    width: 50%;
+    border: none;
+    outline: none;
+}
+

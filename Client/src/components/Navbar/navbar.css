@@ -1,0 +1,234 @@
+body{
+    background-color: #87ceeb33;    
+}
+.navbar img{
+    width: 10%;
+    
+}
+.navbar{   
+    
+    background-image: linear-gradient(rgb(219 96 117 / 71%), #87cefa70);
+      padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 5px 5px grey;
+}
+.nav-mobile{
+    display: none;
+}
+.nav-items{
+    list-style: none;
+    display: flex;   
+    
+
+}
+.nav-items li{
+    padding: 1px 15px;
+    margin-top: 1px;
+    
+}
+.nav-items a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif; 
+}
+.signup{
+    text-align: center;
+    background: url('../../img/luke-chesser-CxBx_J3yp9g-unsplash.jpg') no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    /* flex: 1; */
+    display: flex;
+    /* align-items: center; */
+}
+.signup-container{
+    margin: auto;
+}
+.signup-form-1{
+    background-color:#ffffff6b;
+    
+    padding: 30px;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 2px;
+}
+.signup img{
+    object-fit: contain;
+    width: 200px;
+    padding: 10px 0px;
+}
+.login-para{
+    color: #e9dede;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0px 40px 10px 40px;
+}
+.signup input{
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.signUp-para{
+    color: #e9dede;
+    font-size: 13px;
+    margin: 3px 0px;
+}
+.signup-form-1 > div{
+    width: 80%;
+    /* text-align: center; */
+    margin: auto;
+}
+.btn-0{
+    background-color: rgb(32, 32, 255);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 80%;
+    margin-left: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 7px;
+    
+}
+
+.signup-form-2{
+    background-color:#ffffff6b;
+    
+    text-align: center;
+  
+    padding: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+    /* height: 0.7vh; */
+    
+}
+
+.signin{
+    text-align: center;
+    background: url('../../img/luke-chesser-CxBx_J3yp9g-unsplash.jpg') no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    /* flex: 1; */
+    display: flex;
+    /* align-items: center; */
+}
+.signin-container{
+    margin: auto;
+}
+.signin-form-1{
+    background-color:#ffffff6b;
+    padding: 30px;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 2px;
+}
+.signin img{
+    object-fit: contain;
+    width: 200px;
+    padding: 10px 0px;
+}
+
+.signin input{
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.signin-form-1 > div{
+    width: 80%;
+    /* text-align: center; */
+    margin: auto;
+}
+.btn-1{
+    background-color: rgb(32, 32, 255);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 80%;
+    margin-left: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 7px;
+    
+}
+
+.signin-form-2{
+    text-align: center;
+    background-color: #ffffff6b;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    /* height: 0.7vh; */
+    
+}
+.primaryBtn{
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 7px 18px;
+    font-size: 1rem;
+    border-radius: 10px; 
+    /* outline: none; */
+    margin-left: 8px;
+    border: none;
+    color: #fff;
+    background: #e72a4de4;
+    transition: all 0.25s ease;
+}
+.primaryBtn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -10px rgba(219, 24, 44, 0.6) ;
+}
+
+@media screen and (max-width : 800px) {
+    #insta-logo{
+        display: none;
+    }
+    .nav-items{
+        display: none;
+    }
+    .nav-mobile{
+        background-color: #fff;
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar{
+        padding: 0px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        box-shadow: 0px -2px 5px #fff;
+    }
+    .navbar ul{
+        margin: 0;
+        padding: 10px 0px;
+        
+    }
+    .nav-mobile a{
+        text-decoration: none;
+    color:black;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    }
+    
+    
+}
